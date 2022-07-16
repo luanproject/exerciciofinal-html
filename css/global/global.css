@@ -21,8 +21,16 @@ img {
   display: block;
 }
 
+/* codigo para selecionar apenas imagens e que terminam com .jpg */
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 h1,
 ul,
+h2,
+h3,
+h4,
 p {
   margin: 0px;
 }
